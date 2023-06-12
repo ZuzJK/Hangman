@@ -1,0 +1,27 @@
+.box {
+    --box-height: 3em;
+    height: var(--box-height);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: var(--bg-clr-box);
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+    z-index: 1;
+    cursor: pointer;
+    &Active {
+        --bg-clr-box: var(--clr-neutral-500);
+        line-height: var(--box-height);
+        @extend .box;
+    }
+    &Disabled {
+        display: none;
+        @extend .box;
+    }
+}
+@media (min-width: 450px) {
+    .boxDisabled {
+        display: block;
+        --bg-clr-box: var(--clr-neutral-300);
+    }
+  }

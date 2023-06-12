@@ -1,0 +1,21 @@
+:root {
+    --clr-accent: hsl(210, 100%, 56%);
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-neutral-300: hsl(0, 0%, 93%);
+    --clr-neutral-500: hsl(228, 6%, 35%);
+    --clr-neutral-700: hsl(220, 13%, 18%);
+    --clr-neutral-900: hsla(0, 0%, 0%, 0.7);
+}
+body {
+    text-transform: uppercase;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+.App {
+    background-color: var(--clr-neutral-700);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--clr-neutral-100); 
+  }

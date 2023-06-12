@@ -1,0 +1,11 @@
+.btn {
+    --btn-color: orange;
+    padding: 2em 4em;
+    background-color: transparent;
+    border: dashed var(--btn-color) 3px;
+    border-radius: 40px;
+    color: var(--btn-color);
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}

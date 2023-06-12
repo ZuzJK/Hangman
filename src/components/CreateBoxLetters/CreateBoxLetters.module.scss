@@ -1,0 +1,15 @@
+
+
+.flex {
+    display: grid;
+    gap: .4em;
+    grid-area: letters;
+    grid-template-columns: repeat(auto-fit,
+    minmax(20px, 1fr));
+
+   // grid-auto-rows: 40px;
+   // background-color: #dad;
+
+   grid-column: 1/-1;
+    z-index: 1;
+}
